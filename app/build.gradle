@@ -33,12 +33,9 @@ android {
 
 dependencies {
 
-    implementation(name: "core-release-15", ext: "aar")
+    debugImplementation "com.github.chuckerteam.chucker:library:4.0.0-SNAPSHOT"
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:4.0.0-SNAPSHOT"
 
-    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
-    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
-
-    // implementation 'dev.kiki:core:0.0.5'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
